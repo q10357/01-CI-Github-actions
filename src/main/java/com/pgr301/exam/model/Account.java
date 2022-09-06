@@ -16,6 +16,7 @@ public class Account {
     private BigDecimal balance = BigDecimal.valueOf(0);
 
     public BigDecimal getBalance() {
+        updateLifeQualityOfCats();
         return balance;
     }
 }
